@@ -212,17 +212,18 @@
   &::after {
     content: "\2605";
     font-size: 1.5rem;
-    color: #e88212;
+    color: $color-star-yellow;
   }
 }
 .attribution {
   font-weight: 500;
   border-top: 2px solid $color-light-grayish-magenta;
+  color: $color-primary-Very-dark-magenta;
   a {
     display: inline-block;
     margin: 0 0.3rem;
     text-decoration: none;
-    color: $color-primary-Very-dark-magenta;
+    color: $color-primary-soft-pink;
     font-weight: 700;
     border-top: 2px solid transparent;
     border-left: 2px solid transparent;
@@ -231,7 +232,7 @@
     transition: all 0.3s;
     &:active,
     &:hover {
-      border: 2px solid $color-primary-Very-dark-magenta;
+      border: 2px solid $color-star-yellow;
     }
   }
   padding: 2rem;

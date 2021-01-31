@@ -231,13 +231,14 @@ body {
 .attribution {
   font-weight: 500;
   border-top: 2px solid #f7f2f7;
+  color: #502050;
   padding: 2rem;
   text-align: center; }
   .attribution a {
     display: inline-block;
     margin: 0 0.3rem;
     text-decoration: none;
-    color: #502050;
+    color: #ee68a4;
     font-weight: 700;
     border-top: 2px solid transparent;
     border-left: 2px solid transparent;
@@ -245,4 +246,4 @@ body {
     border-bottom: 2px solid #ee68a4;
     transition: all 0.3s; }
     .attribution a:active, .attribution a:hover {
-      border: 2px solid #502050; }
+      border: 2px solid #e88212; }
